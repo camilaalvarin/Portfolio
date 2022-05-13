@@ -66,6 +66,3 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
-
-// className={styles.hoverOff}
-// className={styles.hoverOn}
