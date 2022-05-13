@@ -7,8 +7,6 @@ import linkedin from '../../image/linkedin.png'
 import linkedinhover from '../../image/linkedinhover.png'
 import whatsapp from '../../image/whatsapp.png'
 import whatsapphover from '../../image/whatsapphover.png'
-import video from '../../image/background2.mp4'
-import video2 from '../../image/backgroundgif.gif'
 
 import { BsGithub, BsLinkedin, BsWhatsapp} from "react-icons/bs";
 
