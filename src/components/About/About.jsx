@@ -1,6 +1,4 @@
 import React from 'react'
-import Particles from 'react-tsparticles'
-// import ParticlesBackground from '../Particles/ParticlesBackground'
 import ParticlesAbout from '../Particles/ParticlesAbout'
 import styles from './About.module.css'
 
@@ -8,7 +6,6 @@ const About = () => {
   return (
     <div className={styles.fatherDiv} id='about'>
       <ParticlesAbout />
-      {/* <ParticlesBackground /> */}
       <div className={styles.textDiv}>
         <p>
           I'm a full-stack developer located in Argentina. I love to create simple yet beautiful websites with great user experience.

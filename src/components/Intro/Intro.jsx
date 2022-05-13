@@ -1,6 +1,5 @@
 import React from "react";
 import styles from './Intro.module.css'
-import rizos from '../../image/rizos4.jpg'
 import Typewriter from "typewriter-effect";
 
 export default function Intro () {
