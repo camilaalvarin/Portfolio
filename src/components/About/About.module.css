@@ -1,0 +1,22 @@
+.fatherDiv {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(to right, hsla(248, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), 
+       url(../../image/backgif6.gif); */
+       /* background-repeat: no-repeat;
+       background-size: cover; */
+}
+
+.textDiv {
+    width: 60%;
+    border: 2px solid black;
+    /* box-shadow: rgba(255, 255, 255, 1) 0px 1px 2px 0px; */
+    backdrop-filter: blur(4px);
+}
+
+.fatherDiv p {
+    font-size: 25px;
+    font-family: cursive;
+}

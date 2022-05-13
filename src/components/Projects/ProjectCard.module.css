@@ -1,0 +1,158 @@
+.frontCard {
+    width: 273px;
+    height: 348px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    overflow: hidden;
+    margin-right: 30px;
+    background-color: #FFFFFF;
+}
+
+.frontCard .cardIconsDiv {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.frontCard .cardIconsDiv .projectImgDiv {
+    width: 144px !important;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.frontCard .cardIconsDiv a {
+    display: flex;
+    width: 36px;
+    height: 36px;
+    border: 2px solid black;
+    margin-left: 6px;
+}
+
+.hoverOn {
+    display: none;
+}
+
+.frontCard .cardIconsDiv a:hover {
+    background-color: #8787ff;
+}
+
+.frontCard .cardIconsDiv a:hover .hoverOff{
+    display: none;
+}
+
+.frontCard .cardIconsDiv a:hover .hoverOn{
+    display: block;
+}
+
+.descriptionFront {
+    margin-top: 0px;
+}
+
+.descriptionFront h2{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.descriptionFront img{
+    width: 240px;
+    height: 208px;
+    margin-top: -5px;
+}
+
+.info {
+    font-size: 28px;
+    text-align: start;
+    margin-top: 0px;
+    margin-right: 60px;
+}
+
+.frontCard .cardIconsDiv a:hover .info{
+    color: white;
+}
+
+
+/* --------- BACK ------------ */
+
+.backCard {
+    width: 273px;
+    height: 348px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    margin-right: 30px;
+}
+
+.backCard .cardIconsDiv {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    height: 50px;
+    margin-top: -12px;
+    margin-bottom: 15px;
+}
+
+.backCard .cardIconsDiv .projectImgDiv {
+    width: 144px !important;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.backCard .cardIconsDiv a {
+    display: flex;
+    width: 36px;
+    height: 36px;
+    border: 2px solid black;
+    margin-left: 6px;
+}
+
+.hoverOn {
+    display: none;
+}
+
+.backCard .cardIconsDiv a:hover {
+    background-color: #8787ff;
+}
+
+.backCard .cardIconsDiv a:hover .hoverOff{
+    display: none;
+}
+
+.backCard .cardIconsDiv a:hover .hoverOn{
+    display: block;
+}
+
+.descriptionBack {
+    margin-top: 0px;
+}
+
+.descriptionBack h2{
+    margin-top: 15px;
+}
+
+/* .backIcons {
+    display: flex;
+    justify-content: end;
+} */
+
+.icons{
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-right: 5px;
+}
+
+.backCard .cardIconsDiv a:hover .info{
+    color: white;
+}
+
+

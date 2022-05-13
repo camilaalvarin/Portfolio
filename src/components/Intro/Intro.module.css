@@ -1,0 +1,66 @@
+.marginDiv {
+    margin-top: 0px;
+}
+
+.biColorDiv {
+    /* width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100; */
+    background: linear-gradient(to right,  #8787ff 0%,#8787ff 50%,#f6f6f6 50%,#f6f6f6 100%);
+    height: 100vh;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .borderDiv {
+    width: 889px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left-color: 1px solid black;
+    position: relative;
+    box-shadow: 6px 0 0px 0px #8787ff, -6px 0 0px 0px #FFFFFF; 
+} */
+
+/* .borderDiv::before {
+    content: '';
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    box-shadow: 
+                444px 0 #FFFFFF inset,
+                1000px 0 #8787ff inset;
+}
+
+.borderDiv::after {
+    content: '';
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    box-shadow: 
+                444px 0 #FFFFFF inset,
+                1000px 0 #8787ff inset;
+} */
+
+.insideDivs {
+    text-align: left;
+    /* margin: 20px; */
+}
+
+.insideDivs img {
+    width: 390px;
+    margin-left: 200px;
+}
