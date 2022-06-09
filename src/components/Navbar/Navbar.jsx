@@ -1,27 +1,29 @@
 import React from 'react'
 import styles from './Navbar.module.css'
 import { HashLink as Link } from 'react-router-hash-link'
+import { BiMenu } from "react-icons/bi";
+
 
 const Navbar = () => {
   return (
     <div className={styles.navbarDiv}>
       <div className={styles.nameDiv}>
         <Link to='#intro'>
-          <p>CamilaAlvarin</p>
+          <p><span className={styles.nameLink}>&#60;</span>Camila<span className={styles.surname}>Alvarin</span><span className={styles.nameLink}>&#47;&#62;</span></p>
         </Link>
       </div>
       <div className={styles.linksDiv}>
         <Link to='#about' className={styles.link} smooth>
-          <p>About</p>
+          <p><span className={styles.navLinks}>&#60;</span>About<span className={styles.navLinks}>&#47;&#62;</span></p>
         </Link>
         <Link to='#projects' className={styles.link} smooth>
-          <p>Projects</p>
+          <p><span className={styles.navLinks}>&#60;</span>Projects<span className={styles.navLinks}>&#47;&#62;</span></p>
         </Link>
         <Link to='#skills' className={styles.link} smooth>
-          <p>Skills</p>
+          <p><span className={styles.navLinks}>&#60;</span>Skills<span className={styles.navLinks}>&#47;&#62;</span></p>
         </Link>
         <Link to='#contact' className={styles.link} smooth>
-          <p>Contact</p>
+          <p><span className={styles.navLinks}>&#60;</span>Contact<span className={styles.navLinks}>&#47;&#62;</span></p>
         </Link>
       </div>
     </div>
@@ -29,12 +31,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-
-{/* <div className={styles.linksDiv}>
-        <ul>
-          <li><a href="">About</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Skills</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-      </div> */}

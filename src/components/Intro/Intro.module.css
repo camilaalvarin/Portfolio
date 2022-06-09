@@ -1,5 +1,6 @@
 .marginDiv {
     margin-top: 0px;
+    /* background-image: url(../../image/coverVideo.mp4); */
 }
 
 .biColorDiv {
@@ -9,13 +10,25 @@
     justify-content: center;
     align-items: center;
     z-index: 100; */
-    background: linear-gradient(to right,  #8787ff 0%,#8787ff 50%,#f6f6f6 50%,#f6f6f6 100%);
-    height: 100vh;
+    /* background: linear-gradient(to right,  #8787ff 0%,#8787ff 50%,#f6f6f6 50%,#f6f6f6 100%); */
+    /* height: 100vh; */
+    /* background-image: url('../../image/descarga2.png'); */
     margin-top: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+
+}
+
+video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
 }
 
 /* .borderDiv {
@@ -56,11 +69,16 @@
 } */
 
 .insideDivs {
+    color: white;
+    font-size: 50px;
     text-align: left;
-    /* margin: 20px; */
 }
 
-.insideDivs img {
-    width: 390px;
-    margin-left: 200px;
+.typewriter {
+    width: 40%;
+    padding: 5px 16px 5px 16px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
 }

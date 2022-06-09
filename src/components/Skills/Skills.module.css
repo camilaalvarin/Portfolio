@@ -3,7 +3,9 @@
     z-index: 3;
     background-color: #ffffff;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .mySkills {
@@ -17,6 +19,121 @@
     background-color: #8787ff;
     text-align: center;
     margin-right: 28px;
+    margin-bottom: 35px;
     margin-top: 75px;
     z-index: 2;
 }
+
+.iconDiv {
+    margin-top: 20px;
+    /* width: 90%; */
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 0 auto; */
+}
+
+.icons {
+    width: 33px;
+    height: 33px;
+    color: white;
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: #8787ff;
+} 
+
+/* SKILLS DESCRIPTION */
+
+.skillsDescription {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.skillsDescriptionEach {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newSkills {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* .languageIcon {
+    width: 220px;
+    height: 80px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+} */
+
+.text {
+    width: 75%;
+    /* opacity: 0; */
+    transition: all 0.5s;
+}
+
+/* .skillsDescriptionEach:hover .text {
+    opacity: 1;
+} */
+
+
+/* PROBANDO TABLAS */
+
+.tables {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.borderDiv {
+    width: 300px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.iconsDiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.frontDiv .title {
+    text-align: start;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.iconNameDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.languageIcon {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+
+@media (min-width: 1060px)  {
+    .skillsFather {
+        height: 100vh;
+    }
+  }
+@media (max-width: 1059px)  {
+    .skillsFather {
+        height: fit-content;
+    }
+  }

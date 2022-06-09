@@ -19,7 +19,7 @@
 }
 
 .link {
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 .linksDiv a{
@@ -27,8 +27,45 @@
     color: white;
 }
 
+.linksDiv p {
+    font-size: 18px;
+}
+
 .nameDiv a{
     text-decoration: none;
     color: white;
 }
 
+.nameDiv p, span {
+    font-size: 19px;
+}
+
+.surname {
+    color: #8787ff;
+}
+
+.navLinks {
+    color: #8787ff;
+    opacity: 0;
+    font-size: 20px;
+    /* letter-spacing: 1px; */
+    margin-left: 5px;
+    /* margin-right: 2px; */
+}
+
+.linksDiv a:hover .navLinks{
+    opacity: 1;
+}
+
+.nameLink {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+/* ------------------------------------------- */
+
+@media (max-width: 1000px)  {
+    .linksDiv {
+        display: none;
+    }
+  }

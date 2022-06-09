@@ -1,9 +1,9 @@
 .frontCard {
     width: 273px;
     height: 348px;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
     text-align: center;
     border: 2px solid black;
     overflow: hidden;
@@ -16,7 +16,9 @@
     justify-content: center;
     border-bottom: 2px solid black;
     height: 50px;
-    margin-bottom: 15px;
+    max-height: 50px;
+    margin-bottom: 10px;
+    margin-top: 8px;
 }
 
 .frontCard .cardIconsDiv .projectImgDiv {
@@ -49,12 +51,12 @@
     display: block;
 }
 
-.descriptionFront {
+/* .descriptionFront {
     margin-top: 0px;
-}
+} */
 
 .descriptionFront h2{
-    margin-top: 5px;
+    /* margin-top: 5px; */
     text-align: center;
 }
 
@@ -81,9 +83,9 @@
 .backCard {
     width: 273px;
     height: 348px;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
     text-align: center;
     border: 2px solid black;
     overflow: hidden;
@@ -96,12 +98,13 @@
     justify-content: center;
     border-bottom: 2px solid black;
     height: 50px;
-    margin-top: -12px;
+    max-height: 50px;
+    margin-top: 8px;
     margin-bottom: 15px;
 }
 
 .backCard .cardIconsDiv .projectImgDiv {
-    width: 144px !important;
+    width: 144px;
     justify-content: end;
     cursor: pointer;
 }
@@ -130,13 +133,13 @@
     display: block;
 }
 
-.descriptionBack {
-    margin-top: 0px;
+/* .descriptionBack {
+    margin-top: 25px;
 }
 
 .descriptionBack h2{
-    margin-top: 15px;
-}
+    margin-top: -10px;
+} */
 
 /* .backIcons {
     display: flex;
@@ -146,8 +149,8 @@
 .icons{
     width: 30px;
     height: 30px;
-    margin-top: -10px;
-    margin-bottom: -10px;
+    /* margin-top: -10px; */
+    /* margin-bottom: -10px; */
     margin-right: 5px;
 }
 

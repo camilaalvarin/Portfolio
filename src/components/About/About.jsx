@@ -6,6 +6,7 @@ const About = () => {
   return (
     <div className={styles.fatherDiv} id='about'>
       <ParticlesAbout />
+      {/* <h1 className={styles.about}>ABOUT</h1> */}
       <div className={styles.textDiv}>
         <p>
           I'm a full-stack developer located in Argentina. I love to create simple yet beautiful websites with great user experience.
