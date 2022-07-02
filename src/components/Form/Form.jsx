@@ -25,8 +25,9 @@ const ContactUs = () => {
     <div className={styles.formFatherDiv} id='contact'>
       {/* <div> */}
         <p className={styles.formContacto}>CONTACTO</p>
-        <p>Soy desarrolladora fullStack junior creativa y con muchas ganas de aprender. 
-          Si tenés una propuesta para acercarme, ¡escribime! <br /> Estoy buscando nuevos desafíos.</p>
+        <p>
+           Estoy buscando mi primera oportunidad como desarrolladora. Si tenés una propuesta para acercarme, ¡escribime! 
+        </p>
       {/* </div> */}
       <div className={styles.formDiv}>
         <form ref={form} onSubmit={sendEmail}>
@@ -60,6 +61,9 @@ const ContactUs = () => {
           </a>
         </div>
       </div>
+      {/* <p>
+        Espero te haya gustado mi porfolio, ¡me encantaría que me des un feedback o alguna recomendación!
+      </p> */}
     </div>
   ); 
 };

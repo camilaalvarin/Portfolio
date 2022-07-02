@@ -14,16 +14,16 @@ const Navbar = () => {
       </div>
       <div className={styles.linksDiv}>
         <Link to='#about' className={styles.link} smooth>
-          <p><span className={styles.navLinks}>&#60;</span>About<span className={styles.navLinks}>&#47;&#62;</span></p>
+          <p><span className={styles.navLinks}>&#60;</span>Sobre mi<span className={styles.navLinks}>&#47;&#62;</span></p>
         </Link>
         <Link to='#projects' className={styles.link} smooth>
-          <p><span className={styles.navLinks}>&#60;</span>Projects<span className={styles.navLinks}>&#47;&#62;</span></p>
+          <p><span className={styles.navLinks}>&#60;</span>Projectos<span className={styles.navLinks}>&#47;&#62;</span></p>
         </Link>
         <Link to='#skills' className={styles.link} smooth>
-          <p><span className={styles.navLinks}>&#60;</span>Skills<span className={styles.navLinks}>&#47;&#62;</span></p>
+          <p><span className={styles.navLinks}>&#60;</span>Habilidades<span className={styles.navLinks}>&#47;&#62;</span></p>
         </Link>
         <Link to='#contact' className={styles.link} smooth>
-          <p><span className={styles.navLinks}>&#60;</span>Contact<span className={styles.navLinks}>&#47;&#62;</span></p>
+          <p><span className={styles.navLinks}>&#60;</span>Contacto<span className={styles.navLinks}>&#47;&#62;</span></p>
         </Link>
       </div>
     </div>

@@ -34,22 +34,19 @@ const Skills = () => {
         <div className={styles.skillsDescriptionEach}>
           <IoPlayForward className={styles.icons} />
           <p className={styles.text}>
-            Developing blazing fast web applications for seamless user
-            interaction.
+            Desarrollo de aplicaciones web rápidas para una interacción perfecta con el usuario.
           </p>
         </div>
         <div className={styles.skillsDescriptionEach}>
           <MdOutlinePhoneIphone className={styles.icons} />
           <p className={styles.text}>
-            Mobile-first, responsive design layout for all devices is a top
-            priority.
+          Mobile-first y responsive design para todos los dispositivos es una prioridad.
           </p>
         </div>
         <div className={styles.skillsDescriptionEach}>
           <FaGraduationCap className={styles.icons} />
           <p className={styles.text}>
-            Constantly continues to learn new technologies and keeping
-            up-to-date with the freshest trends.
+            Estoy aprendiendo nuevas tecnologías para estar actualizada con las últimas tendencias.
           </p>
         </div>
       </div>

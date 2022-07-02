@@ -1,3 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Splash&display=swap');
+/* font-family: 'Splash', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+/* font-family: 'Boogaloo', cursive; */
+
 button {
     position: relative;
     padding: 19px 36px;
@@ -97,19 +107,34 @@ button {
        } 
 
    .formFatherDiv .formContacto {
-       font-size: 30px;
-       font-weight: 500;
+       font-size: 32px;
+       letter-spacing: 2px;
+       font-weight: bolder;
        text-align: center;
        margin-left: 20px;
-       /* padding-top: 75px; */
+       margin-top: 75px;
+       margin-bottom: 20px;
        color: #FFFFFF;
    }
 
+   /* .formFatherDiv .formContacto p {
+       margin-bottom: 50px;
+   } */
+
    .formFatherDiv p {
     /* margin-top: 75px; */
-       font-size: 20px;
+       font-size: 28px;
        color: #FFFFFF;
        width: 93%;
+       /* text-align: start; */
+       /* font-family: 'Roboto', sans-serif; */
+       /* font-family: 'Splash', cursive; */
+   }
+
+   p {
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Splash', cursive; */
+    font-family: 'Boogaloo', cursive;
    }
 
    .formDiv {
@@ -123,17 +148,18 @@ button {
     box-shadow: rgba(255, 255, 255, 1) 0px 1px 2px 1px;
     backdrop-filter: blur(5px);
     margin-bottom: 20px;
+    margin-top: 20px;
    }
 
    label {
        margin-left: -530px;
-       color: #FFFFFF;
+       color: #FFFFFF; 
    }
 
    .inputs {
        width: 470px;
        padding: 10px;
-       margin-top: 20px;
+       margin-top: 10px;
        margin-bottom: 20px;
        margin-right: 50px;
        margin-left: 50px;

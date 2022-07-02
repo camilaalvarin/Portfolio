@@ -11,7 +11,8 @@ import githubhover from '../../image/githubhover.svg'
 
 
 export default function Project ({ data }) {
-    const {img, web, title, description, icons, alt, gitHub} = data
+    const {img, web, title, description, descriptionTwo, descriptionThree, descriptionFour, descriptionFive, 
+        descriptionSix, descriptionSeven, descriptionEight, descriptionNine, icons, alt, gitHub} = data
     const [isFlipped, setIsFlipped] = useState(false)
 
 
@@ -62,7 +63,27 @@ export default function Project ({ data }) {
                 </div>
                 <div className={styles.descriptionBack}>
                     <h2>{title}</h2>
-                    <p>{description}</p>
+                    <div className={styles.scrollbarPDiv}>
+                        <p>{description}</p>
+                        <p className={styles.pRight}>
+                            <b>{descriptionTwo}</b>
+                            <br /> 
+                            {descriptionThree} 
+                            <br /> 
+                            {descriptionFour} 
+                            <br />
+                            {descriptionFive}
+                            <br />
+                            {descriptionSix}
+                            <br />
+                            {descriptionSeven}
+                            <br />
+                            {descriptionEight}
+                            <br />
+                            {descriptionNine}
+                        </p> 
+                        
+                    </div>
                 </div>
                 <div title={alt}>
                     {
@@ -76,6 +97,20 @@ export default function Project ({ data }) {
             </div>
         </ReactCardFlip>
       )
+
+
+    //   <p className={styles.scrollbarP}>
+    //                     {description} 
+    //                     <br />
+    //                     <br /> 
+    //                     {descriptionTwo} 
+    //                     <br /> 
+    //                     {descriptionThree} 
+    //                     <br /> 
+    //                     {descriptionFour} 
+    //                     <br />
+    //                     {descriptionFive}
+    //                 </p>
 
     //   return (
     //     <ReactCardFlip  isFlipped={isFlipped} flipDirection="horizontal">

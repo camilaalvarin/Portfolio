@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .navbarDiv {
     display: flex;
     justify-content: space-between;
@@ -29,6 +32,7 @@
 
 .linksDiv p {
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nameDiv a{
@@ -38,6 +42,7 @@
 
 .nameDiv p, span {
     font-size: 19px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .surname {
