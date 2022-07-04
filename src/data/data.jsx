@@ -1,6 +1,7 @@
 import React from 'react'
 // import iconsProjectsHTML from "../media/htmlSassGulp.svg";
 import task from '../../src/image/task.png'
+import Gamerland from '../../src/image/gamerland.png'
 import pokedex from '../../src/image/pokeapp.gif'
 
 import javascript from "../../src/image/javascript.svg";
@@ -26,7 +27,7 @@ const data = [
     {
         id: "1",
         title: "Gamerland",
-        img: task,
+        img: Gamerland,
         description: "Gamerland es un ecommerce de perifericos, como mouse, teclados, pads, etc",
         descriptionTwo: "Funcionalidades:",
         descriptionThree: "• Registro e inicio de sesión",

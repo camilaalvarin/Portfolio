@@ -71,14 +71,20 @@ video {
 .insideDivs {
     color: white;
     font-size: 50px;
-    text-align: left;
+    text-align: center;
 }
 
 .typewriter {
-    width: 40%;
+    width: 45%;
     padding: 5px 16px 5px 16px;
     border: 2px solid white;
     color: white;
     font-weight: bolder;
     font-size: 20px;
+}
+
+@media (max-width: 600px)  {
+    .typewriter {
+        width: 65%;
+    }
 }
