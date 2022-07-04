@@ -1,5 +1,4 @@
 import React from 'react'
-// import iconsProjectsHTML from "../media/htmlSassGulp.svg";
 import task from '../../src/image/task.png'
 import Gamerland from '../../src/image/gamerland.png'
 import pokedex from '../../src/image/pokeapp.gif'
@@ -13,15 +12,9 @@ import express from "../../src/image/express.svg";
 import postgresql from "../../src/image/postgresql.svg";
 import sequelize from "../../src/image/sequelize.svg";
 import firebase from "../../src/image/firebase.svg";
-import git from "../../src/image/git.svg";
-import github from "../../src/image/github.svg";
-import trello from "../../src/image/trello2.svg";
-import figma from "../../src/image/figma.svg";
-import python from "../../src/image/python.svg";
-import jira from "../../src/image/jira.svg";
-import slack from "../../src/image/slack.svg";
-import html from "../../src/image/html5.svg";
-import css from "../../src/image/css.svg";
+import graphql from "../../src/image/graphql.svg";
+import apollo from "../../src/image/apollo.png";
+import chakra from "../../src/image/chakra.png";
 
 const data = [
     {
@@ -39,8 +32,8 @@ const data = [
         descriptionNine: "• Panel de administrador",
         gitHub: "https://github.com/TomasCasco/E-commerce-Group-Project",
         web: "https://gamerland.vercel.app/",
-        icons: [javascript, next, redux],
-        alt: 'javascript, next, firebase'
+        icons: [javascript, next, redux, apollo, chakra, node, graphql],
+        alt: 'javascript, next, redux, apollo, chakraUI, node, graphQL'
     },
     {
         id: "2",

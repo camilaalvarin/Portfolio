@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import styles from './Form.module.css'
-import cv from "../../data/Alvarin-CV.pdf";
+import cv from "../../data/AlvarinCamila-CV.pdf";
 
 import { BsGithub, BsLinkedin, BsWhatsapp, BsDownload } from "react-icons/bs";
 
@@ -18,7 +18,7 @@ const ContactUs = () => {
       }, (error) => {
           console.log(error.text);
       });
-      e.target.reset()
+      e.target.reset() 
   };
 
   return (
