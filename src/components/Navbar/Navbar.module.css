@@ -30,7 +30,7 @@
     margin-right: auto;
     text-align: center;
     padding-top: 15vh;
-    top: 62px;
+    top: 61px;
     left: 0;
     right: 0;
     /* background-color: #30303d; */
@@ -95,8 +95,7 @@
 
 @media (max-width: 1000px)  {
     .linksDiv {
-        display: flex;
-        margin-right: 20px;
+        display: block;
         position: absolute;
         top: -700px;
         /* left: -2000px; */

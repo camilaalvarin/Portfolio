@@ -83,8 +83,13 @@ video {
     font-size: 20px;
 }
 
-@media (max-width: 600px)  {
+@media (min-width: 411px) and (max-width: 600px)  {
     .typewriter {
         width: 65%;
+    }
+}
+@media (max-width: 410px)  {
+    .typewriter {
+        width: 85%;
     }
 }

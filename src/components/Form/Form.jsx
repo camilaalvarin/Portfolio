@@ -47,13 +47,13 @@ const ContactUs = () => {
         </form>
       {/* </div> */}
         <div className={styles.iconsDiv}>
-          <a href="">
+          <a target="_blank" href="https://github.com/camilaalvarin">
             <BsGithub alt="GitHub" title="GitHub" className={styles.icons} />  {/* className={`${styles.socialIcons} ${styles.hoverOff}`} */}
           </a>
-          <a href="">
+          <a target="_blank" href="https://www.linkedin.com/in/camila-alvarin-bb2634a8/">
             <BsLinkedin alt="LinkedIn" title="LinkedIn" className={styles.icons} />
           </a>
-          <a href="">
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=1161827685&text=Hola%20Camila!%20Te%20escribo%20porque%20estaba%20viendo%20tu%20portfolio%20y%20...">
             <BsWhatsapp alt="Whatsapp" title="Whatsapp" className={styles.icons} />
           </a>
           <a href={cv} download>
