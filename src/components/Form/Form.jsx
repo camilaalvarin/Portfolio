@@ -53,7 +53,7 @@ const ContactUs = () => {
           <a target="_blank" href="https://www.linkedin.com/in/camila-alvarin-bb2634a8/">
             <BsLinkedin alt="LinkedIn" title="LinkedIn" className={styles.icons} />
           </a>
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=1161827685&text=Hola%20Camila!%20Te%20escribo%20porque%20estaba%20viendo%20tu%20portfolio%20y%20...">
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=5491161827685&text=Hola%20Camila!%20Te%20escribo%20porque%20vi%20tu%20portfolio%20y%20...">
             <BsWhatsapp alt="Whatsapp" title="Whatsapp" className={styles.icons} />
           </a>
           <a href={cv} download>
