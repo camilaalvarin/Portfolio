@@ -2,17 +2,17 @@ import React from "react";
 import styles from './Intro.module.css'
 import Typewriter from "typewriter-effect";
 import videoo from '../../image/coverVideo.mp4'
+import { useTranslation } from "react-i18next";
 
 export default function Intro () {
-
+    const [t, i18n] = useTranslation("global")
 
     return (
         <div className={styles.marginDiv} id='intro'>
             <video src={videoo} autoPlay loop muted></video>
             <div className={styles.biColorDiv}>
                     <div className={styles.insideDivs}>
-                        <h1>¡Hola, soy Camila!</h1>
-                        {/* <h2>Soy Camila!</h2> */}
+                        <h1>{t('intro.h1')}</h1>
                     </div>
                     <div className={styles.typewriter}>
                         <Typewriter
@@ -22,7 +22,7 @@ export default function Intro () {
                         }}
                         onInit={(typewriter) => {
                             typewriter
-                            .typeString("Desarrolladora full-stack junior")
+                            .typeString("Full-Stack developer Junior")
                             .pauseFor(2000)
                             .deleteAll()
                             .start();

@@ -1,0 +1,64 @@
+{
+    "navbar": {
+        "firstLink": "Sobre mi",
+        "secondLink": "Proyectos",
+        "thirdLink": "Habilidades",
+        "fourthLink": "Contacto"
+    },
+    "intro": {
+        "h1": "¡Hola, soy Camila!",
+        "label": "BlablablaES"
+    },
+    "about": {
+        "firstP": "Mi nombre es Camila, soy una desarrolladora Full-Stack creativa e ingeniosa de Argentina.",
+        "secondP": "Mis fortalezas incluyen la capacidad de trabajar de manera efectiva como parte de un equipo y brindar apoyo a otros compañeros.",
+        "thirdP": "Destaco mi personalidad positiva y pro activa y el hecho de que aprendo rápido y siempre estoy buscando mejorar.",
+        "fourthP": "Actualmente, estoy en búsqueda de mi primer trabajo IT para continuar creciendo tanto a nivel profesional como personal."
+    },
+    "projects": {
+        "title": "Mis Proyectos"
+    },
+    "gamerland": {
+        "funcionality": "Gamerland es un ecommerce de perifericos, como mouse, teclados, pads, etc",
+        "firstDescription": "Funcionalidades:",
+        "secondDescription": "• Registro e inicio de sesión",
+        "thirdDescription": "• Carrito de compras, descuentos, favoritos",
+        "fourthDescription": "• Filtrar por categoria o marca",
+        "fifthDescription": "• Ordenar por precio ascendente o descendente",
+        "sixthDescription": "• Buscar productos especificos con una opción de autocompletar",
+        "seventhDescription": "• Pasarela de pagos de MercadoPago",
+        "eighthDescription": "• Panel de administrador"
+    },
+    "task": {
+        "funcionality": "Es una app que te permite llevar un control de las tareas por hacer, en curso o terminadas, y todas se guardan localmente con Firebase.",
+        "firstDescription": "Funcionalidades:",
+        "secondDescription": "• Registro e inicio de sesión",
+        "thirdDescription": "• Agregar tareas con su descripción y estado (por hacer, en curso, terminada)",
+        "fourthDescription": "• Modificar la descripción y estado de las tareas",
+        "fifthDescription": "• Eliminar las tareas"
+    },
+    "pokedex": {
+        "funcionality": "Es una SPA, que hace uso de una API de datos, y luego parte de la información es extraída y almacenada en una Base de Datos, (#PostgreSQL) para que pueda usarse más tarde a conveniencia.",
+        "firstDescription": "Funcionalidades:",
+        "secondDescription": "• Filtrar por tipo de pokemon y por pokemons creados por el usuario.",
+        "thirdDescription": "• Ordenar pokemons alfabeticamente (A-Z, Z-A) y por fuerza de ataque.",
+        "fourthDescription": "• Buscar por nombre.",
+        "fifthDescription": "• Visualizar los detalles de cada Pokémon en paginas individuales.",
+        "sixthDescription": "• Crear pokémons a través de un formulario controlado."
+    },
+    "skills": {
+        "title": "Habilidades",
+        "firstP": "Desarrollo de aplicaciones web rápidas para una interacción perfecta con el usuario.",
+        "secondP": "Mobile-first y responsive design para todos los dispositivos es una prioridad.",
+        "thirdP": "Estoy aprendiendo nuevas tecnologías para estar actualizada con las últimas tendencias.",
+        "tableTools": "Herramientas"
+    },
+    "contact": {
+        "title": "CONTACTO",
+        "firstP": "Estoy buscando mi primera oportunidad como desarrolladora. Si tenés una propuesta para acercarme, ¡escribime!",
+        "firstPlaceHolder": "Nombre",
+        "secondPlaceHolder": "Mail",
+        "thirdPlaceHolder": "Mensaje...",
+        "button": "ENVIAR"
+    }
+}

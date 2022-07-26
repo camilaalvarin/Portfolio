@@ -23,31 +23,30 @@ import { FaGraduationCap } from "react-icons/fa";
 import { IoPlayForward, IoPlayForwardSharp } from "react-icons/io5";
 import { MdOutlinePhoneIphone } from "react-icons/md";
 
+import { useTranslation } from "react-i18next";
+// {t('skills.h1')}
+
 const Skills = () => {
+  const [t, i18n] = useTranslation("global")
+
   return (
     <div className={styles.skillsFather} id="skills">
       <div>
-        <p className={styles.mySkills}>Habilidades</p>
+        <p className={styles.mySkills}>{t('skills.title')}</p>
       </div>
 
       <div className={styles.skillsDescription}>
         <div className={styles.skillsDescriptionEach}>
           <IoPlayForward className={styles.icons} />
-          <p className={styles.text}>
-            Desarrollo de aplicaciones web rápidas para una interacción perfecta con el usuario.
-          </p>
+          <p className={styles.text}>{t('skills.firstP')}</p>
         </div>
         <div className={styles.skillsDescriptionEach}>
           <MdOutlinePhoneIphone className={styles.icons} />
-          <p className={styles.text}>
-          Mobile-first y responsive design para todos los dispositivos es una prioridad.
-          </p>
+          <p className={styles.text}>{t('skills.secondP')}</p>
         </div>
         <div className={styles.skillsDescriptionEach}>
           <FaGraduationCap className={styles.icons} />
-          <p className={styles.text}>
-            Estoy aprendiendo nuevas tecnologías para estar actualizada con las últimas tendencias.
-          </p>
+          <p className={styles.text}>{t('skills.thirdP')}</p>
         </div>
       </div>
 
@@ -132,7 +131,7 @@ const Skills = () => {
         </div>
         <div className={styles.borderDiv}>
           <div className={styles.frontDiv}>
-            <p className={styles.title}>Tools</p>
+            <p className={styles.title}>{t('skills.tableTools')}</p>
             <div className={styles.iconsDiv}>
               <div className={styles.pruebaa}>
                 <div className={styles.iconNameDiv}>

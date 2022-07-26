@@ -1,26 +1,23 @@
 import React from 'react'
 import ParticlesAbout from '../Particles/ParticlesAbout'
 import styles from './About.module.css'
+import { useTranslation } from "react-i18next";
+// {t('intro.h1')}
 
 const About = () => {
+  const [t, i18n] = useTranslation("global")
+
   return (
     <div className={styles.fatherDiv} id='about'>
       <ParticlesAbout />
-      {/* <h1 className={styles.about}>ABOUT</h1>  */}
       <div className={styles.textDiv}>
+        <p>{t('about.firstP')}</p>
         <p>
-          Mi nombre es Camila, soy una desarrolladora Full-Stack creativa e ingeniosa de Argentina.
-        </p>
-        <p>
-          Mis fortalezas incluyen la capacidad de trabajar de manera efectiva como parte de un equipo y brindar apoyo a 
-          otros compañeros. <br />
-          Destaco mi personalidad positiva y pro activa y el hecho de que aprendo rápido y siempre estoy buscando mejorar.
-
-        </p>
-        <p>
-          Actualmente, estoy en búsqueda de mi primer trabajo IT para continuar creciendo tanto a nivel profesional 
-          como personal.
-        </p>
+          {t('about.secondP')}
+         <br />
+         {t('about.thirdP')}
+         </p>
+        <p>{t('about.fourthP')}</p>
       </div>
     </div>
   )

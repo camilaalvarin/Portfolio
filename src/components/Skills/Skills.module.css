@@ -80,7 +80,7 @@
 
 .text {
     width: 75%;
-    /* opacity: 0; */
+    font-size: 20px;
     transition: all 0.5s;
 }
 
@@ -115,7 +115,7 @@
     padding-bottom: 10px;
     border-bottom: 2px solid black;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .iconNameDiv {

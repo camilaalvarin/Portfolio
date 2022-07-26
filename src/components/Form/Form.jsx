@@ -1,12 +1,17 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import styles from './Form.module.css'
 import cv from "../../data/AlvarinCamila-CV.pdf";
+import swal from 'sweetalert'
 
 import { BsGithub, BsLinkedin, BsWhatsapp, BsDownload } from "react-icons/bs";
 
+import { useTranslation } from "react-i18next";
+// {t('contact.h1')}
+
 
 const ContactUs = () => {
+  const [t, i18n] = useTranslation("global")
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -18,37 +23,35 @@ const ContactUs = () => {
       }, (error) => {
           console.log(error.text);
       });
+      swal({
+        title: "Mensaje enviado",
+        icon: "success",
+        timer: "1200",
+        buttons: false
+    })
       e.target.reset() 
   };
 
   return (
     <div className={styles.formFatherDiv} id='contact'>
-      {/* <div> */}
-        <p className={styles.formContacto}>CONTACTO</p>
-        <p>
-           Estoy buscando mi primera oportunidad como desarrolladora. Si tenés una propuesta para acercarme, ¡escribime! 
-        </p>
-      {/* </div> */}
+        <p className={styles.formContacto}>{t('contact.title')}</p>
+        <p>{t('contact.firstP')}</p>
       <div className={styles.formDiv}>
         <form ref={form} onSubmit={sendEmail}>
-          {/* <label>Name</label> */}
-          <input type="text" name="name" className={`${styles.inputs} ${styles.marginInput}`} placeholder='Nombre' /> 
-          {/* <label>Email</label> */}
+          <input type="text" name="name" className={`${styles.inputs} ${styles.marginInput}`} placeholder={t('contact.firstPlaceHolder')} /> 
           <br />
-          <input type="email" name="email" className={styles.inputs} placeholder='Email'/>
+          <input type="email" name="email" className={styles.inputs} placeholder='Email' />
           <br />
-          {/* <label>Mensaje</label>  */}
           <br />
-          <textarea name="message" placeholder='Mensaje...' />
+          <textarea name="message" placeholder={t('contact.thirdPlaceHolder')} />
           <button className={styles.marginButon}> 
-          <input type="submit" value="ENVIAR" className={styles.buttonEnv} />
+          <input type="submit" value={t('contact.button')} className={styles.buttonEnv} />
             <div className={styles.liquid}></div>
           </button>
-        </form>
-      {/* </div> */}
+        </form>   
         <div className={styles.iconsDiv}>
           <a target="_blank" href="https://github.com/camilaalvarin">
-            <BsGithub alt="GitHub" title="GitHub" className={styles.icons} />  {/* className={`${styles.socialIcons} ${styles.hoverOff}`} */}
+            <BsGithub alt="GitHub" title="GitHub" className={styles.icons} />
           </a>
           <a target="_blank" href="https://www.linkedin.com/in/camila-alvarin-bb2634a8/">
             <BsLinkedin alt="LinkedIn" title="LinkedIn" className={styles.icons} />
@@ -69,6 +72,3 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
-
-// className={styles.hoverOff}
-// className={styles.hoverOn}

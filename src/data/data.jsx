@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import task from '../../src/image/task.png'
 import Gamerland from '../../src/image/gamerland.png'
 import pokedex from '../../src/image/pokeapp.gif'
@@ -15,6 +15,10 @@ import firebase from "../../src/image/firebase.svg";
 import graphql from "../../src/image/graphql.svg";
 import apollo from "../../src/image/apollo.png";
 import chakra from "../../src/image/chakra.png";
+
+// import { useTranslation } from "react-i18next";
+// const [t, i18n] = useTranslation("global")
+// {t('intro.h1')}
 
 const data = [
     {

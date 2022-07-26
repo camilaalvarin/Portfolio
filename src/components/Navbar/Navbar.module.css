@@ -16,6 +16,11 @@
     color: white;
 }
 
+.flexDiv {
+    display: flex;
+    margin-right: 15px;
+}
+
 .linksDiv {
     display: flex;
     margin-right: 20px;
@@ -87,9 +92,33 @@
 }
 
 .burger {
-    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 6px;
 }
+
+/* LANG BUTTONS */
+
+.langDesktop {
+    display: flex;
+}
+
+.langMob {
+    display: flex;
+}
+
+.langIcon {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    margin: 15px 2px 0px 2px;
+    transition: all 0.2s;
+}
+.langIcon:hover {
+    transform: scale(1.2);
+}
+
 
 /* ------------------------------------------- */
 
@@ -98,7 +127,6 @@
         display: block;
         position: absolute;
         top: -700px;
-        /* left: -2000px; */
         left: 0px;
         margin-left: auto;
         margin-right: auto;
@@ -120,6 +148,14 @@
         margin-left: 8px;
         margin-right: 2px;
         font-weight: bold;
+    }
+
+    .langDesktop {
+        display: none;
+    }
+
+    .langIcon {
+        margin: 0px 2px 0px 2px;
     }
   }
 

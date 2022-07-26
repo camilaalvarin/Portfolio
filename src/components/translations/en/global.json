@@ -1,0 +1,64 @@
+{
+    "navbar": {
+        "firstLink": "About",
+        "secondLink": "Projects",
+        "thirdLink": "Skills",
+        "fourthLink": "Contact"
+    },
+    "intro": {
+        "h1": "Hi, I'm Camila!",
+        "label": "BlablablaEN"
+    },
+    "about": {
+        "firstP": "Hi! My name is Camila, I am a creative and resourceful Full-Stack developer located in Argentina.",
+        "secondP": "My strengths include the ability to work effectively as part of a team and being supportive of other team members.",
+        "thirdP": "I highlight my positive and self-motivated personality and the fact that I am a fast learner who is always seeking to improve.",
+        "fourthP": "Currently, I am looking for my first job as a developer to continue growing both professionally and personally."
+    },
+    "projects": {
+        "title": "My Projects"
+    },
+    "gamerland": {
+        "funcionality": "Gamerland is an ecommerce of peripherals, such as mouse, keyboards, pads, etc",
+        "firstDescription": "Functionalities:",
+        "secondDescription": "• Registration and login",
+        "thirdDescription": "• Shopping cart, discounts, favourites",
+        "fourthDescription": "• Filter by category or brand",
+        "fifthDescription": "• Sort by price ascending or descending",
+        "sixthDescription": "• Search for specific products with an autocomplete option",
+        "seventhDescription": "• MercadoPago payment gateway",
+        "eighthDescription": "• Admin Panel"
+    },
+    "task": {
+        "funcionality": "It is an app that allows you to keep track of the tasks to be done, in progress or completed, and all of them are saved locally with Firebase",
+        "firstDescription": "Functionalities:",
+        "secondDescription": "• Registration and login",
+        "thirdDescription": "• Add tasks with their description and status (to do, in progress, finished)",
+        "fourthDescription": "• Modify the description and status of tasks",
+        "fifthDescription": "• Delete the tasks"
+    },
+    "pokedex": {
+        "funcionality": "It is a SPA, which makes use of a data API, and then part of the information is extracted and stored in a Database, (#PostgreSQL) so that it can be used later at convenience.",
+        "firstDescription": "Functionalities:",
+        "secondDescription": "• Filter by pokemon type and by user created pokemons.",
+        "thirdDescription": "• Sort pokemons alphabetically (A-Z, Z-A) and by attack strength.",
+        "fourthDescription": "• Search by name.",
+        "fifthDescription": "• View the details of each Pokémon on individual pages.",
+        "sixthDescription": "• Create pokémons through a controlled form."
+    },
+    "skills": {
+        "title": "Skills",
+        "firstP": "Developing fast web applications for seamless user interaction.",
+        "secondP": "Mobile-first, responsive design layout for all devices is a top priority.",
+        "thirdP": "I am constantly learning new technologies to keep up with the latest trends.",
+        "tableTools": "Tools"
+    },
+    "contact": {
+        "title": "Get in Touch!",
+        "firstP": "I am looking for my first opportunity as a developer. If you have a proposal to approach me, write me!",
+        "firstPlaceHolder": "Name",
+        "secondPlaceHolder": "Email",
+        "thirdPlaceHolder": "Message...",
+        "button": "SEND"
+    }
+}

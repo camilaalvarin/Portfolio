@@ -46,30 +46,6 @@ button {
     transition: .5s;
    }
    
-   /* button .liquid::after,
-   button .liquid::before {
-    content: '';
-    width: 200%;
-    height: 200%;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, -75%);
-    background: #fff;
-   }
-   
-   button .liquid::before {
-    border-radius: 45%;
-    background: rgba(20, 20, 20, 1);
-    animation: animate 5s linear infinite;
-   }
-   
-   button .liquid::after {
-    border-radius: 40%;
-    background: rgba(20, 20, 20, .5);
-    animation: animate 10s linear infinite;
-   } */
-   
    button:hover .liquid {
     top: -120px;
     cursor: pointer;
@@ -78,36 +54,23 @@ button {
    .buttonEnv {
        cursor: pointer;
    }
-   
-   /* @keyframes animate {
-    0% {
-     transform: translate(-50%, -75%) rotate(0deg);
-    }
-   
-    100% {
-     transform: translate(-50%, -75%) rotate(360deg);
-    }
-   } */
 
    /* --------------- FORM -------------- */
 
    .formFatherDiv {
        /* background: linear-gradient(to right, hsla(248, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)),  */
        /* background: linear-gradient(to right, hsla(248, 95%, 50%, 0.281), hsla(317, 45%, 52%, 0.288)), 
-       url(../../image/backgif5.gif);
        background-repeat: no-repeat;
        background-size: cover; */
        /* background: linear-gradient(to right, hsla(248, 95%, 50%, 0.281), hsla(317, 45%, 52%, 0.288)); */
        background: linear-gradient(to right, hsla(248, 95%, 50%, 0.5), hsla(317, 45%, 52%, 0.7));
-       /* height: 100vh; */
        height: fit-content;
        display: flex;
        flex-direction: column;
-       /* z-index: -5; */
        } 
 
    .formFatherDiv .formContacto {
-       font-size: 32px;
+       font-size: 34px;
        letter-spacing: 2px;
        font-weight: bolder;
        text-align: center;
@@ -117,23 +80,13 @@ button {
        color: #FFFFFF;
    }
 
-   /* .formFatherDiv .formContacto p {
-       margin-bottom: 50px;
-   } */
-
    .formFatherDiv p {
-    /* margin-top: 75px; */
-       font-size: 28px;
+       font-size: 29px;
        color: #FFFFFF;
        width: 93%;
-       /* text-align: start; */
-       /* font-family: 'Roboto', sans-serif; */
-       /* font-family: 'Splash', cursive; */
    }
 
    p {
-    /* font-family: 'Roboto', sans-serif; */
-    /* font-family: 'Splash', cursive; */
     font-family: 'Boogaloo', cursive;
    }
 
@@ -186,7 +139,6 @@ button {
    textarea::placeholder { 
        color: white; 
        font-size: 18px; 
-       /* font-style: normal;  */
        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 

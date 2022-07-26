@@ -1,46 +1,33 @@
 import React from "react";
+import Pokedex from "./Pokedex";
+import Gamerland from "./Gamerland";
+import Task from "./Task";
 import Card from './ProjectCard'
 import styles from './Projects.module.css'
-// import data from '../../data/data'
+import { useTranslation } from "react-i18next";
+// {t('skills.h1')}
 
-export default function Projects ({ data }) {
-
-
-    // return (
-    //     <div className={styles.projectsBody} id='projects'>
-    //         <p className={styles.projectsP}>Mis Proyectos</p>
-    //         <div className={styles.cardsDiv}>
-    //             <div className={styles.card}>
-    //                 <Card />
-    //             </div>
-    //             <div className={styles.card}>
-    //                 <Card />
-    //             </div>
-    //             <div className={styles.card}>
-    //                 <Card />
-    //             </div>
-    //         </div>
-    //     <br />
-    //     </div>
-    // )
+export default function Projects () {
+    const [t, i18n] = useTranslation("global")
 
     return (
         <div className={styles.projectsBody} id='projects'>
-            <p className={styles.projectsP}>Mis Proyectos</p>
+            <p className={styles.projectsP}>{t('projects.title')}</p>
             <div className={styles.cardsDiv}>
-            {
-                data?.map((data) => {
-                    return (
-                            <div className={styles.card}>
-                                <Card data={data} />
-                            </div>
-                    )
-                })
-            }
+            <Gamerland />
+            <Pokedex />
+            <Task />
             </div>
-        <br />
         </div>
     )
 }
 
-// img={data.img} web={data.web} title={data.title} gitHub={data.gitHub} description={data.description}
+// {
+//     data?.map((data) => {
+//         return (
+//                 <div className={styles.card}>
+//                     <Card data={data} />
+//                 </div>
+//         )
+//     })
+// } 

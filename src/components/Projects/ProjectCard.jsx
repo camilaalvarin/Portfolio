@@ -9,10 +9,19 @@ import fliphover from '../../image/fliphover.svg'
 import github from '../../image/github.svg'
 import githubhover from '../../image/githubhover.svg'
 
+import { useTranslation } from "react-i18next";
+// const [t, i18n] = useTranslation("global")
+// {t('intro.h1')}
 
 export default function Project ({ data }) {
-    const {img, web, title, description, descriptionTwo, descriptionThree, descriptionFour, descriptionFive, 
-        descriptionSix, descriptionSeven, descriptionEight, descriptionNine, icons, alt, gitHub} = data
+
+    const [t, i18n] = useTranslation("global")
+
+    // description, descriptionTwo, descriptionThree, descriptionFour, descriptionFive, 
+    //     descriptionSix, descriptionSeven, descriptionEight, descriptionNine,
+    
+    const {img, web, title, icons, alt, gitHub, description, descriptionTwo, descriptionThree, descriptionFour, descriptionFive, 
+        descriptionSix, descriptionSeven, descriptionEight, descriptionNine} = data
     const [isFlipped, setIsFlipped] = useState(false)
 
 
@@ -20,6 +29,8 @@ export default function Project ({ data }) {
         e.preventDefault();
         setIsFlipped(!isFlipped);
       }
+
+   
   
       return (
         <ReactCardFlip  isFlipped={isFlipped} flipDirection="horizontal">
@@ -96,8 +107,8 @@ export default function Project ({ data }) {
                 </div>
             </div>
         </ReactCardFlip>
-      )
-
+      )    
+  }
 
     //   <p className={styles.scrollbarP}>
     //                     {description} 
@@ -171,7 +182,3 @@ export default function Project ({ data }) {
     //         </div>
     //     </ReactCardFlip>
     //   )
-    
-  }
-
-   {/* className={styles.projectCard} */}
