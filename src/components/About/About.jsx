@@ -13,11 +13,16 @@ const About = () => {
       <div className={styles.textDiv}>
         <p>{t('about.firstP')}</p>
         <p>
-          {t('about.secondP')}
-         <br />
+          {t('about.secondP')} 
+          {t('about.seventhP')}
          {t('about.thirdP')}
          </p>
-        <p>{t('about.fourthP')}</p>
+        <p>
+          {t('about.fourthP')}
+          {t('about.seventhP')}
+         {t('about.fifthP')}
+         </p>
+        <p>{t('about.sixthP')}</p>
       </div>
     </div>
   )

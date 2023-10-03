@@ -75,15 +75,18 @@ button {
        font-weight: bolder;
        text-align: center;
        margin-left: 20px;
-       margin-top: 75px;
-       margin-bottom: 20px;
+       margin-top: 60px;
+       /* margin-bottom: 10px; */
        color: #FFFFFF;
    }
 
    .formFatherDiv p {
        font-size: 29px;
        color: #FFFFFF;
-       width: 93%;
+       width: 95%;
+       text-align: center;
+       margin-top: 0px;
+       margin-bottom: 20px;
    }
 
    p {

@@ -13,7 +13,10 @@
         "firstP": "Hi! My name is Camila, I am a creative and resourceful Full-Stack developer located in Argentina.",
         "secondP": "My strengths include the ability to work effectively as part of a team and being supportive of other team members.",
         "thirdP": "I highlight my positive and self-motivated personality and the fact that I am a fast learner who is always seeking to improve.",
-        "fourthP": "Currently, I am looking for my first job as a developer to continue growing both professionally and personally."
+        "fourthP": "I began my career as a developer at Pagie Portal, where I gained experience in frontend development using technologies such as JavaScript, React, Redux, CSS, Tailwind, and Figma for design.",
+        "fifthP": "After four months, I had the opportunity to join EY (Ernst & Young) as a Developer Staff 1, where I focused on data integration using tools like Alteryx, SSIS, and SQL Server, among others. My strong interest in web development led me to train and join various projects using React.",
+        "sixthP": "Currently, I have over a year of experience at EY and have been promoted to the position of Staff 2 as a Frontend Developer. I actively participate in various projects that employ React and continue to advance my skills in Angular.",
+        "seventhP": " "
     },
     "projects": {
         "title": "My Projects"
@@ -55,7 +58,7 @@
     },
     "contact": {
         "title": "Get in Touch!",
-        "firstP": "I am looking for my first opportunity as a developer. If you have a proposal to approach me, write me!",
+        "firstP": "I'm always on the lookout for challenging opportunities that allow me to continue growing as a professional. If you have a proposal to share, please feel free to reach out to me!",
         "firstPlaceHolder": "Name",
         "secondPlaceHolder": "Email",
         "thirdPlaceHolder": "Message...",

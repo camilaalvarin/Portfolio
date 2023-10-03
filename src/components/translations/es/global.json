@@ -13,7 +13,11 @@
         "firstP": "Mi nombre es Camila, soy una desarrolladora Full-Stack creativa e ingeniosa de Argentina.",
         "secondP": "Mis fortalezas incluyen la capacidad de trabajar de manera efectiva como parte de un equipo y brindar apoyo a otros compañeros.",
         "thirdP": "Destaco mi personalidad positiva y pro activa y el hecho de que aprendo rápido y siempre estoy buscando mejorar.",
-        "fourthP": "Actualmente, estoy en búsqueda de mi primer trabajo IT para continuar creciendo tanto a nivel profesional como personal."
+        "fourthP": "Comencé mi carrera como desarrolladora en Pagie Portal, donde adquirí experiencia en el desarrollo frontend utilizando tecnologías como JavaScript, React, Redux, CSS, Tailwind y Figma para el diseño.",
+        "fifthP": "Después de cuatro meses, tuve la oportunidad de unirme a EY (Ernest & Young) como developer Staff 1, donde me enfoqué en la integración de datos utilizando herramientas como Alteryx, SSIS y SQL Server, entre otras. Mi gran interés por el desarrollo web me llevó a capacitarme y unirme a distintos proyectos que utilizan React.",
+        "sixthP": "Actualmente, cuento con más de un año de experiencia en EY y fui promovida al puesto de Staff 2 como Frontend Developer. Participo activamente en diversos proyectos que utilizan React y continúo mi formación en Angular.",
+        "seventhP": " "
+
     },
     "projects": {
         "title": "Mis Proyectos"
@@ -55,7 +59,7 @@
     },
     "contact": {
         "title": "CONTACTO",
-        "firstP": "Estoy buscando mi primera oportunidad como desarrolladora. Si tenés una propuesta para acercarme, ¡escribime!",
+        "firstP": "Siempre estoy en búsqueda de oportunidades desafiantes que me permitan seguir desarrollándome como profesional. Si tenés una propuesta para acercarme, ¡escribime!",
         "firstPlaceHolder": "Nombre",
         "secondPlaceHolder": "Mail",
         "thirdPlaceHolder": "Mensaje...",

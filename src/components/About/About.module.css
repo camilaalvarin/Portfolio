@@ -17,15 +17,15 @@
     border: 2px solid black;
     /* box-shadow: rgba(255, 255, 255, 1) 0px 1px 2px 0px; */
     backdrop-filter: blur(3px);
-    padding: 20px 30px 20px 30px;
-    margin-top: 5%;
-    margin-bottom: 30px;
+    padding: 0px 30px 0px 30px;
+    margin-top: 60px;
+    /* margin-bottom: 30px; */
 }
 
 .textDiv p{
     font-family: 'Boogaloo', cursive;
     /* font-family: 'Roboto', sans-serif; */
-    font-size: 29px;
+    font-size: 25px;
 }
 
 .about {
