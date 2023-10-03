@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import styles from './Form.module.css'
-import cv from "../../data/AlvarinCamila-CV.pdf";
+import cv from "../../data/CV Frontend - Alvarin.pdf";
 import swal from 'sweetalert'
 
 import { BsGithub, BsLinkedin, BsWhatsapp, BsDownload } from "react-icons/bs";
